@@ -33,23 +33,11 @@ int main()
         printf("Percentage: %.2f\n", student[i].percentage);
         printf("\n");
     }
-    if (81.00 <= student[i].percentage && student[i].percentage < 100)
-    {
-        printf("Distinction\n");
-    }
-     else if (61.00 <= student[i].percentage && student[i].percentage <= 80.00)
-    {
-        printf("First class\n");
-    }
-     else if (41.00 <= student[i].percentage && student[i].percentage <= 60.00)
-    {
-        printf("Average\n");
-    }
-    else if (21.00 <= student[i].percentage && student[i].percentage <= 40.00)
+    if (21.00 <= student[i].percentage)
     {
         printf("Pass\n");
     }
-     else if (0.00 <= student[i].percentage && student[i].percentage <= 20.00)
+     else (0.00 <= student[i].percentage && student[i].percentage <= 20.00)
     {
         printf("Fail\n");
     }
